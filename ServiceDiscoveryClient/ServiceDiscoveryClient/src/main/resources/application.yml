@@ -1,0 +1,10 @@
+# to run another client use command  "java -jar target/ServiceDiscoveryClient.jar --server.port=8081"
+#                                  and "java -jar target/ServiceDiscoveryClient.jar --server.port=8082"
+#spring:
+ # application:
+  #  name: remote-server
+  #cloud:
+   # config:
+    #  uri: http://localhost:8888/
+  #profiles:
+   # active: dev
